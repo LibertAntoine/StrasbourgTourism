@@ -1,0 +1,484 @@
+/*
+* Theme Name: wallstreet_child
+* Template: wallstreet
+* Theme URI: https://webriti.com/wallstreet-lite-version-details-page/
+* Description: WallStreet is a Business WordPress Theme that contains many features for customizing your website as you need. Already, thousands of users are enjoying this theme because it is designed for multiple businesses like corporates, law firms, digital media agencies, architecture firms, personal blogs, portfolios and freelancer websites. The theme is developed using Bootstrap 3 CSS framework which makes it friendly for all devices such as mobiles, tablets, and laptops, etc. In WallStreet Lite, you can easily set a Featured Banner / Slide, Social Icons in the header, Contact Information, Services, Portfolio, and a 4-column widgetized footer. Several page templates are also added: Homepage and a Full Width page template. In the premium version, you will get 2 color skins (Lite and Dark), 10 predefined color schemes, a feature for creating your own custom color scheme, an eye-catching slider, and Services, Testimonials, Portfolio, Clients / Sponsors, Blog Layouts, Layout Manager and Latest News. You will also get various page templates including About, Services, Portfolio, Blog and Contact Us. The theme has support for popular plugins such as WPML, Polylang and JetPack Gallery Extensions. Just navigate to Appearance / Customize to start customizing. Both the lite and premium versions of WallStreet theme come with various locales. Check the premium version theme demo at http://webriti.com/demo/wp/wallstreet
+* Version: 1.7.8
+* Author: webriti
+* Author URI: https://www.webriti.com
+* Tags: full-width-template, threaded-comments, right-sidebar, one-column, two-columns, custom-menu, sticky-post, translation-ready,featured-images, blog, portfolio, photography, food-and-drink, entertainment, education, blog, footer-widgets
+* License: GNU General Public License v3.0
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
+* Copyright (c) 2016 webriti. All rights reserved.
+* Text Domain: wallstreet
+*/
+
+.flex-slider-center h1 {
+	color: #00c2a9;
+}
+
+.home-portfolio-showcase {
+	border-radius : 80px;
+}
+
+.home-portfolio-showcase-detail h4 {
+	color:black;
+}
+
+.home-blog-info h2 {
+	color:black;
+} 
+.css-events-list table.events-table td {
+	padding : 15px;
+}
+
+.css-events-list table.events-table th {
+	padding-left : 15px;
+	padding-top : 5px;
+}
+
+.events-table {
+	width : 100%;
+}
+
+/* Color */
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus, .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus, .blog-pagination a:hover, .blog-pagination a.active, .page-links a:hover, .page-links a.active, .flex_btn, .pagetitle-separator-border, .other-service-area:hover i, .home-portfolio-showcase-overlay, .proejct-btn a:hover, .home-blog-btn a, .tweet-btn a:hover, .post-date, .blog-post-date span.date a, .sidebar-widget-tags a:hover, .tagcloud a:hover, .search_btn, .search_error, .search_heading, .sidebar-widget-tags a:hover, .blog-author-social li:hover, .blogdetail-btn a, #blogdetail_btn, .wallstreet_page_heading, .post-password-form input[type="submit"], a.blog-btn {
+    background-color: #405b55;
+}
+
+.header-top-area, .sidebar-widget-tab > .active a, .pagetitle-separator-box {
+    background: none repeat scroll 0 0 #405b55;
+}
+
+.slide-text-bg1 h2, .slide-text-bg2 h1, .slide-text-bg3 p {
+	color: #7fa872;
+	text-shadow: 2px 2px 4px black;
+}
+
+/* Page contact */
+#place {
+	line-height:20px;
+}
+
+#adresse {
+	margin-right: 30px;
+	margin-bottom: 60px;
+}
+
+#lieu {
+	padding-right : 20px;
+	
+}
+
+input::placeholder, option, textarea::placeholder {
+	color:black;
+	opacity:0.7;
+}
+
+select {
+	color:rgba(0,0,0,0.7);
+}
+
+textarea {
+	color:black;
+}
+
+/* Barre de navigation */
+
+.homepage_mycarousel {
+	top:50px;
+	margin-bottom:20px;
+}
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 200px) {
+.homepage_mycarousel {
+	top:120px;
+	margin-bottom:100px;
+}
+	
+	.page-mycarousel {
+	top:120px;
+	margin-bottom:150px;
+}
+
+
+	.navbar-brand {
+		display:none;
+	}
+}
+
+
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+.homepage_mycarousel {
+	top:150px;
+	margin-bottom:120px;
+}
+	
+	.page-mycarousel {
+	top:150px;
+	margin-bottom:170px;
+}
+
+	.navbar-brand {
+		display:block;
+		position : absolute;
+		left : 5%;
+	}
+	
+	.navbar-toggle {
+		margin-right : 40px;
+	}
+	
+	.navbar-wrapper .container {
+	margin: 0px;
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+	.homepage_mycarousel {
+	top:120px;
+	margin-bottom:110px;
+}
+	
+	.page-mycarousel {
+	top:120px;
+	margin-bottom:150px;
+}
+	
+	.navbar > .container .navbar-brand {
+    display: none;
+}
+	
+.navbar-toggle {
+		margin-top : 20px;
+}
+}
+
+
+
+
+.header-top-area {
+	position: fixed;
+	z-index:5;
+	width:100%;
+}
+
+.navbar {
+    min-height: 0px;
+	position: fixed;
+	margin-top : 55px;
+	z-index:5;
+	display:flex;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 200px) {
+.navbar-inverse {
+    background-color: #2a2c33;
+}
+.navbar-wrapper {
+    position: relative !important;
+}
+}
+
+.navbar-wrapper {
+    position: fixed !important;
+}
+
+.search-bar-top label {
+	display:none;
+}
+
+.navbar img {
+	margin-top: -10px;
+	margin-bottom: -15px;
+	width:150px;
+}
+
+#searchform {
+	display:flex;
+	height:55px;
+	
+}
+
+#searchform .search_widget_input , #searchsubmit {
+	margin:0px;
+	height:55px;
+}
+
+#searchform .search_widget_input {
+
+}
+
+.page-mycarousel img {
+	width:100%;
+}
+
+.button-social {
+	height:55px;
+
+}
+
+.head-contact-social, .head-contact-social li {
+	height:55px;
+	line-height:55px;
+}
+
+
+.home-blog-post-img {
+	max-height: 400px;
+	max-width: 1200px;	
+}
+
+.home-blog-post-img img {
+	width : 100%;
+}
+
+#gtranslate_wrapper  {
+	position : fixed;
+	right : 0%;
+	width : 130px;
+}
+
+.portfolio-section {
+	padding-top : 100px;
+}
+
+/* Pied de page */
+
+#menu-menu-footer {
+	line-height : 30px;
+}
+
+#wpc-weather {
+	margin-left : -28px;
+	margin-top : -10px;
+	width: 250px;
+}
+
+
+
+/* style page contact */
+@media (max-width: 600px) {
+
+.blog-post-title {
+	padding : 10px 10px 10px;
+	}
+	#formulaire {
+	padding:0px;	
+	}
+	.col-md-6 {
+    	max-width: 600px;
+	}
+}
+.blog-detail-section {
+	width:100%;
+}
+
+.wpcf7-form {
+	float : left;
+	margin-right : 15px;
+}
+
+#wpgmza_map {
+	width : 50%;
+}
+
+.container {
+	padding:0px;
+}
+.col-md-12 {
+	padding: 0px;
+}
+
+/* style page d'actualité */
+
+#actualite-bloc {
+
+}
+
+#actualite-bloc div {
+	margin: 15px;
+}
+
+
+.actualite-blog-info {
+    padding: 27px 25px 40px;
+	margin:0px;
+	transition: all 300ms ease-out 0s;
+	
+
+}
+
+.actualite-blog-info:hover {
+	background-color: rgba(55,57,65,0.8);
+}
+
+.actualite-blog-post-detail {
+	color: #e5e5e5;
+    border-bottom: 1px dotted #7B7F8C;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 0 30px;
+    overflow: hidden;
+    padding: 0 0 23px;
+    width: 100%;
+}
+
+.actualite-blog-info .fa-comment:before {
+    margin-right : 5px;
+}
+
+.actualite-blog-btn {
+    display: block;
+    margin: 0 0 0px;
+}
+
+.actualite-blog-description {
+    color: #f5f5f5;
+	display: block;
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+
+.actualite-blog-post-img {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    transition: all 200ms ease-out 0s;
+}
+
+.actualite-blog-post-detail > .comment > a {
+    color: #e5e5e5;
+	padding: 0px 0px 0px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.actualite-blog-post-detail > .comment {
+
+	float: right;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 4px 0 0;
+}
+
+.actualite-blog-post-img {
+	max-width:600px;
+	max-height:200px;
+}
+
+.actualite-blog-post-img img {
+    transition: all 300ms ease-out 0s;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.actualite-blog-area .actualite-blog-info h2 > a {
+    color: #f5f5f5;
+}
+
+.actualite-blog-area .actualite-blog-info h2 > a {
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+.actualite-blog-post-detail > .date {
+    float: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.actualite-blog-post-detail span {
+    display: inline-block;
+    padding: 0px 0;
+}
+
+.actualite-blog-area {
+    background-color: #3c3f49;
+}
+
+.actualite-blog-area {
+    border-radius: 0;
+    margin-bottom: 30px;
+    transition: all 0.4s ease 0s;
+}
+
+.actualite-blog-area:hover .actualite-blog-post-img img {
+	-webkit-transform: scale(1.25);/* Saf3.1+, Chrome */
+	-moz-transform: scale(1.25); /* FF3.5+ */
+	-ms-transform: scale(1.25); /* IE9 */
+	-o-transform: scale(1.25); /* Opera 10.5+ */
+	transform: scale(1.25);
+	opacity: 1;
+}
+
+.actualite-blog-btn a {
+	background-color: #00c2a9;
+	color: #ffffff;
+	border-radius: 2px;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 10px 18px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+}
+
+.actualite-blog-area:hover .actualite-blog-info h2 > a {
+	color: #00c2a9;
+}
+
+
+.wpcf7-form input {
+	color: black;
+}
+
+.blog-post-img img {
+	width: 100%;
+	max-height: 400px;
+}
+
+/* activité du mois */
+@media only screen and (max-width: 480px) {
+.events-table tbody tr {
+	display:flex;
+	flex-direction: column;
+}
+	
+.events-table tbody tr td {
+	max-width:400px;
+	border : 0px solid black;
+}
+	
+	.event-time, .event-description, .event-details, .event-inscription {
+		display:none;
+	}
+}
+
+.button-slider {
+	border : 2px white solid;
+	padding: 3px;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	box-shadow: 2px 2px 2px black;
+}
+
+.home-blog-section .section_heading_title h1 {
+	padding-top : 70px;
+}
